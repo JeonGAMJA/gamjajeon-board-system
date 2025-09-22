@@ -1,0 +1,35 @@
+# Eclipse 관련
+.metadata
+.classpath
+.project
+.settings/
+bin/
+target/
+
+# 컴파일된 파일
+*.class
+*.jar
+*.war
+*.ear
+
+# 로그 파일
+*.log
+
+# 설정 파일 (민감한 정보)
+**/application-local.properties
+**/database.properties
+**/config.properties
+
+# 임시 파일
+temp_*.sql
+test_*.sql
+local_*.sql
+
+# DB 백업 파일
+*.dump
+*.backup
+*.bak
+
+# OS 관련
+.DS_Store
+Thumbs.db
